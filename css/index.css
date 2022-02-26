@@ -18,3 +18,11 @@ body {
 #user__email {
     text-decoration: none;
 }
+.user__list {
+    padding: 0;
+}
+#user__list-item {
+    list-style: none;
+    padding: 0;
+    border: 1px solid #777;
+}

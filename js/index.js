@@ -17,6 +17,8 @@ fetch('https://jsonplaceholder.typicode.com/users')
       const userEmail = userTemplate.getElementById('user__email')
       const userNumber = userTemplate.getElementById('user__number')
       const userWebSite = userTemplate.getElementById('web__site')
+      const insideStreet = userTemplate.getElementById('inside-street')
+      const insideCity = userTemplate.getElementById('inside-city')
       const postBtn = userTemplate.getElementById('more')
       
       userName.textContent = user.name
@@ -24,10 +26,10 @@ fetch('https://jsonplaceholder.typicode.com/users')
       userEmail.textContent = user.email
       userEmail.href = 'mailto:'
       userNumber.textContent = user.phone
-      userWebSite.textContent = user.website    
+      userWebSite.textContent = user.website 
+      insideStreet.textContent = user.address.street   
+      insideCity.textContent = user.address.city   
       postBtn.dataset.uuid = user.id
-
-
       
       eluserList.appendChild(userTemplate)
 
