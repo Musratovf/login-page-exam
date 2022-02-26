@@ -10,22 +10,24 @@
 <body>
     <button class="logout-btn" type="submit">Log Out</button>
 
-    <ul class="user__list">
-    </ul>
+    <div class="container">
+        <ul class="user__list">
+        </ul>
+    </div>
     <template id="template__user">
         <li id="user__list-item">
             <h2 id="name">Name</h2>
             <h3 id="user__name">UserName</h3>
             <h5><a id="user__email" href="maito:"></a></h5>
             <p id="user__number">PhoneNumber</p>
-            <a id="web__site">Website.com</a>
             <ul id="inside-list">
                 <li id="inside-item">
+                    <a id="web__site" href="">Website</a>
                     <p id="inside-street">City</p>
                     <p id="inside-city">City</p>
                 </li>
             </ul>
-            <br><button id="more">Posts</button>
+            <br><button id="post-btn">Posts</button>
         </li>
     </template>
 

@@ -19,12 +19,12 @@ fetch('https://jsonplaceholder.typicode.com/users')
       const userWebSite = userTemplate.getElementById('web__site')
       const insideStreet = userTemplate.getElementById('inside-street')
       const insideCity = userTemplate.getElementById('inside-city')
-      const postBtn = userTemplate.getElementById('more')
+      const postBtn = userTemplate.getElementById('post-btn')
       
       userName.textContent = user.name
       userUserName.textContent = user.username
       userEmail.textContent = user.email
-      userEmail.href = 'mailto:'
+      userEmail.href = 'mailto:',
       userNumber.textContent = user.phone
       userWebSite.textContent = user.website 
       insideStreet.textContent = user.address.street   
@@ -33,32 +33,10 @@ fetch('https://jsonplaceholder.typicode.com/users')
       
       eluserList.appendChild(userTemplate)
 
-      postBtn.addEventListener('click', (e) => {
-          userListPosts.innerHTML = null
-          userListComment.innerHTML = null
-          fetch('https://jsonplaceholder.typicode.com/posts')
-          .then(response => response.json())
-          .then(posts => {
-          const postId = e.target.dataset.uuid
-          posts.forEach(posted => {
-              const postTemplate = templatePost.cloneNode(true)
-              if (postId == posted.userId) {
-                  const titlePost = postTemplate.getElementById('title__post')
-                  const bodyPost = postTemplate.getElementById('body__post')
-                  const commentBtn = postTemplate.getElementById('comments__btn')
-                  
-                  commentBtn.dataset.uuid = posted.id
-                  titlePost.textContent = posted.title
-                  bodyPost.textContent = posted.body
-                  
-                  userListPosts.appendChild(postTemplate) 
-                  
-                }
-            });
-            
-        })
-    });
-    
+      postBtn.addEventListener('click', (evt) => {
+        window.localStorage.setItem('id' , evt.target.dataset.uuid)
+        window.location.replace('post.html')
+      })
     
 })
 )

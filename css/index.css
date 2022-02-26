@@ -2,6 +2,13 @@ body {
    background-color: aqua;
    font-family: sans-serif;
 }
+* {
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
 .logout-btn {
     border-radius: 4px;
     border: 1px solid #777;
@@ -17,12 +24,32 @@ body {
 }
 #user__email {
     text-decoration: none;
+    font-size: 16px;
 }
 .user__list {
     padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 #user__list-item {
+    width: 250px;
+    margin: 0 20px 15px 0;
+    padding: 10px;
     list-style: none;
-    padding: 0;
     border: 1px solid #777;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+#user__list-item:hover {
+    box-shadow: 0 0 10px rgba(122, 121, 121, 0.5);
+}
+#web__site {
+    text-decoration: none;
+}
+#post-btn {
+    padding: 5px 20px;
+    cursor: pointer;
+    background-color: antiquewhite;
+    border-radius: 2px;
 }
