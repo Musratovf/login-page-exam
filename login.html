@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,31 +8,34 @@
     <link rel="stylesheet" href="./css/login.css">
     <title>Login page</title>
 </head>
+
 <body>
     <div class="container-login">
         <div class="imgs">
-        <img class="img-login" src="./img/icon.svg" width="180" alt="login">
+            <img class="img-login" src="./img/icon.svg" width="180" alt="login">
         </div>
-        <h2 class="login-heading">Sign In</h2>
         <form class="form">
-            <input 
-            class="form-email-input" 
-            type="email" placeholder="Email ...." 
-            value="eve.holt@reqres.in">
-            <p class="login-email-text"></p>
-            <input
-            class="form-password-input" 
-            type="password" placeholder="Password ...."
-            value="cityslicka">
-            <p class="login-password-text"></p>
-            <button class="btn" type="submit">Login</button>
+            <fieldset class="fieldset">
+                <legend class="login-legend">
+                    <h2 class="login-heading">Sign In</h2>
+                </legend>
+                <input class="form-email-input" type="email" placeholder="Email ...." value="eve.holt@reqres.in">
+                <p class="login-email-text"></p>
+                <input class="form-password-input" type="password" placeholder="Password ...." value="cityslicka"
+                autocomplete="on"
+                >
+                <p class="login-password-text"></p>
+                <button class="btn" type="submit">Login</button>
+            </fieldset>
         </form>
         <div class="inner">
             <hr class="line">
-            <p class="title"><a class="login-link" target="blank" href="https://www.instagram.com/farrux_musratov/">Forget Password</a></p>
+            <p class="title"><a class="login-link" target="blank"
+                    href="https://www.instagram.com/farrux_musratov/">Forget Password</a></p>
         </div>
     </div>
 
     <script src="./js/login.js"></script>
 </body>
+
 </html>

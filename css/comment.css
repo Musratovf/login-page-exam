@@ -23,7 +23,7 @@ body {
 .heading-comment a {
     font-size: 18px;
     border: 1px solid black;
-    background-image: linear-gradient(to left bottom, #48439b, #98cabbe8, #4d99dbda, #89698be1, #5594b0);
+    background-image: linear-gradient(to left bottom, #48439b, #3cdbabe8, #2a8be0e8, #b462b9e1, #5594b0);
     text-decoration: none; 
     color: aliceblue;
     padding: 5px 15px ;
