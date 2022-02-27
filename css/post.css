@@ -42,3 +42,6 @@ body {
 .heading a:active {
     font-size: 16px;
 }
+.post-heading, .post-last-text {
+    color: rgba(0, 0, 0, 0.8);
+}
