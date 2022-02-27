@@ -22,11 +22,13 @@ body {
 }
 .comment-btn {
     padding: 7px 15px;
-    /* background-color: rgba(30, 57, 210, 0.699); */
-    background-image: linear-gradient(to top, #221ccbb4, #006effe0, #0097e7, #00b594, #13cc38e1); 
+    background: linear-gradient(to top, #221ccbb4, #006effe0, #0097e7, #00b594, #13cc38e1); 
     cursor: pointer;
     color: aliceblue;
     font-size: 18px;
+}
+.comment-btn:hover {
+    background: linear-gradient(to top,#00b594, #16832c91, #645feebb, #5092e7e0, #0097e7 ); 
 }
 .heading a {
     font-size: 18px;

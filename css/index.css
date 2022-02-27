@@ -50,10 +50,16 @@ body {
 #post-btn {
     padding: 5px 20px;
     cursor: pointer;
-    background-image: linear-gradient(to bottom, #221ccbb2, #006effbd, #0097e7, #00b594c9, #13cc37);
+    background: linear-gradient(to bottom, #221ccbb2, #006effbd, #0097e7, #00b594c9, #13cc37);
     color: aliceblue;
     font-size: 18px;
     border-radius: 2px;
+    border: 2px solid #000000;
+}
+#post-btn:hover {
+    background: linear-gradient(to top, #221ccbb2, #006effbd, #0097e7, #00b594c9, #13cc37);
+    color: #ffffff;
+    transition: 0.5s ease
 }
 .logout-img {
     width: 30px;
