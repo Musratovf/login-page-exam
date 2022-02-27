@@ -13,7 +13,7 @@ body {
     list-style: none;
 }
 .comment-item {
-    border: 1px solid red;
+    border: 4px solid rgb(247, 247, 242);
     background-color: rgba(156, 185, 211, 0.8);
     padding: 15px;
     width: 90%;

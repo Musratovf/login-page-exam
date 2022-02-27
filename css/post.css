@@ -17,7 +17,7 @@ body {
     width: 90%;
     background-color: rgba(168, 197, 223, 0.9);
     padding: 15px;
-    border: 1px solid rgb(252, 252, 252);
+    border: 4px solid rgb(255, 255, 255);
     margin: 10px auto;
 }
 .comment-btn {
