@@ -24,7 +24,7 @@ fetch('https://jsonplaceholder.typicode.com/posts')
         elPostList.appendChild(postTeplate)
 
         commentBtn.addEventListener('click', (evt) => {
-            window.localStorage.setItem('userId' , evt.target.dataset.uuid)
+            window.localStorage.setItem('postId' , evt.target.dataset.uuid)
             window.location.replace('comment.html')
           })
     });

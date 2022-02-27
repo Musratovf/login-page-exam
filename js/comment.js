@@ -10,9 +10,12 @@ if(!token) {
 fetch('https://jsonplaceholder.typicode.com/comments')
 .then(response => response.json())
 .then(comit => {
-    const cometlocal = window.localStorage.getItem('id')
+    const cometlocal = window.localStorage.getItem('postId')
 
     const filtercommet = comit.filter(bnnma => bnnma.postId == cometlocal)
+
+     
+
 
     filtercommet.forEach(commet => {
 
@@ -25,7 +28,7 @@ fetch('https://jsonplaceholder.typicode.com/comments')
         
         headingText.textContent = commet.name
         bodyText.textContent = commet.email
-        commentBody.dataset.uuid = commet.body
+        commentBody.textContent = commet.body
 
         elCommentList.appendChild(commentTemplate)
 

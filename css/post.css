@@ -38,3 +38,6 @@ body {
 .heading {
     margin-left: 15%;
 }
+.heading a:active {
+    font-size: 16px;
+}

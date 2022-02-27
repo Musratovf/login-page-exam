@@ -1,5 +1,6 @@
 body {
     background-image: url(../img/oboi.jpg);
+    background-attachment: fixed;
    font-family: sans-serif;
 }
 * {
@@ -10,13 +11,15 @@ body {
     margin: 0 auto;
 }
 .logout-btn {
+    display: flex;
+    align-items: center;
     border-radius: 4px;
     border: 1px solid #777;
     padding: 10px 15px 10px 15px;
     cursor: pointer;
     font-size: 22px;
     margin-left: 5%;
-    background-color: rgba(68, 114, 163, 0.7);
+    background-color: rgba(59, 119, 184, 0.8);
     color: aliceblue;
     box-shadow: 0 0 10px rgb(158, 24, 147);
 }
@@ -48,8 +51,12 @@ body {
 #post-btn {
     padding: 5px 20px;
     cursor: pointer;
-    background-image: linear-gradient(to bottom, #221ccbb2, #006effbd, #0097e7, #00b594c9, #13cc37);;
+    background-image: linear-gradient(to bottom, #221ccbb2, #006effbd, #0097e7, #00b594c9, #13cc37);
     color: aliceblue;
     font-size: 18px;
     border-radius: 2px;
+}
+.logout-img {
+    width: 30px;
+    border-radius: 50%;
 }
