@@ -10,9 +10,9 @@ if(!token) {
 fetch('https://jsonplaceholder.typicode.com/comments')
 .then(response => response.json())
 .then(comit => {
-    const dataSave = window.localStorage.getItem('id')
+    const cometlocal = window.localStorage.getItem('id')
 
-    const filtercommet = comit.filter(bnnma => bnnma.postId == dataSave)
+    const filtercommet = comit.filter(bnnma => bnnma.postId == cometlocal)
 
     filtercommet.forEach(commet => {
 

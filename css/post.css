@@ -2,7 +2,9 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #777;
+    background-image: url(../img/bg.jpg);
+    background-attachment: fixed;
+    font-family: sans-serif;
 }
 .post-list {
     display: flex;
@@ -11,14 +13,28 @@ body {
     padding: 0;
 }
 .post-item {
-    background-color: aliceblue;
+    background-color: rgba(168, 197, 223, 0.9);
     padding: 15px;
     border: 1px solid rgb(252, 252, 252);
     width: 70%;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 .comment-btn {
     padding: 7px 15px;
-    border-radius: 3px;
-    background-color: chocolate;
+    /* background-color: rgba(30, 57, 210, 0.699); */
+    background-image: linear-gradient(to top, #221ccbb4, #006effe0, #0097e7, #00b594, #13cc38e1); 
+    cursor: pointer;
+    color: aliceblue;
+    font-size: 18px;
+}
+.heading a {
+    font-size: 18px;
+    border: 1px solid black;
+    background-image: linear-gradient(to left bottom, #4139ef, #95f100da, #0079e2, #b900cac9, #5594b0);
+    text-decoration: none; 
+    color: aliceblue;
+    padding: 5px 15px ;
+}
+.heading {
+    margin-left: 15%;
 }
