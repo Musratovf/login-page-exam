@@ -14,14 +14,13 @@ body {
     display: flex;
     align-items: center;
     border-radius: 4px;
-    border: 1px solid #777;
+    border: 1px solid rgb(218, 216, 216);
     padding: 10px 15px 10px 15px;
     cursor: pointer;
     font-size: 22px;
-    margin-left: 5%;
+    margin-left: 8%;
     background-color: rgba(59, 119, 184, 0.8);
     color: aliceblue;
-    box-shadow: 0 0 10px rgb(158, 24, 147);
 }
 #user__email {
     text-decoration: none;

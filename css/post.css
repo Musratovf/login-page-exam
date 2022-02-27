@@ -37,11 +37,8 @@ body {
     padding: 5px 15px ;
 }
 .heading {
-    margin-left: 10%;
+    margin-left: 5%;
 }
 .heading a:active {
     font-size: 16px;
-}
-.post-heading, .post-last-text {
-    color: rgba(0, 0, 0, 0.8);
 }
