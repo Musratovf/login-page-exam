@@ -8,15 +8,16 @@ body {
 }
 .post-list {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     list-style: none;
     padding: 0;
 }
 .post-item {
+    width: 90%;
     background-color: rgba(168, 197, 223, 0.9);
     padding: 15px;
     border: 1px solid rgb(252, 252, 252);
-    width: 70%;
     margin: 10px auto;
 }
 .comment-btn {
@@ -36,7 +37,7 @@ body {
     padding: 5px 15px ;
 }
 .heading {
-    margin-left: 15%;
+    margin-left: 10%;
 }
 .heading a:active {
     font-size: 16px;

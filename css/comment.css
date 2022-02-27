@@ -14,9 +14,9 @@ body {
 }
 .comment-item {
     border: 1px solid red;
-    background-color: rgba(240, 248, 255, 0.8);
-    padding: 10px;
-    width: 80%;
+    background-color: rgba(156, 185, 211, 0.8);
+    padding: 15px;
+    width: 90%;
     margin: 10px auto;
 }
 
@@ -31,3 +31,6 @@ body {
 .heading-comment {
     margin-left: 10%;
 } 
+.comment-email {
+    text-decoration: none;  
+}
