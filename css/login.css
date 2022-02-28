@@ -1,4 +1,7 @@
 body {
+    background-image: url(../img/hakker.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: sans-serif;
     background-color: rgba(52, 62, 150, 0.9);
     padding: 5px;

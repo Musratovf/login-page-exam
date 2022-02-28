@@ -1,5 +1,6 @@
 body {
-    background-image: url(../img/oboi.jpg);
+    background-image: url(../img/haker.jpg);
+    background-size: cover;
     background-attachment: fixed;
    font-family: sans-serif;
 }

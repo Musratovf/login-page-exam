@@ -2,7 +2,8 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url(../img/oboi.jpg);
+    background-image: url(../img/coder.jpg);
+    background-size: cover;
     background-attachment: fixed;
     margin: 10px;
     padding: 10px;
